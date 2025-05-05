@@ -16,17 +16,15 @@ lto = true
 codegen-units = 1
 
 [dependencies]
+qx_rs_err = "^0.0.0"
+qx_rs_time = "^0.0.0"
+qx_rs_str = "^0.0.0"
 
-qx_rs_err = { path = "../../utils/qx_rs_err" }
-qx_rs_time = { path = "../../utils/qx_rs_time" }
-qx_rs_str = { path = "../../utils/qx_rs_str" }
+qx_rs_md_env = "^0.0.0"
 
-qx_rs_md_env = { path = "../qx_rs_md_env" }
-
-lazy_static = "^1.5.0"
 log = "^0.4.27"
 log4rs = "^1.3.0"
-anyhow = "1.0.98"
-chrono = "0.4.41"
+anyhow = "^1.0.98"
+chrono = "^0.4.41"
 
 
